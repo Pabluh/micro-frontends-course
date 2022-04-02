@@ -1,0 +1,20 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "shortMessage": "Command failed with exit code 1: /home/pablo/.nvm/versions/node/v14.18.2/bin/pnpm add --global --global-dir /tmp/dlx-41102 --dir /tmp/dlx-41102",
+    "command": "/home/pablo/.nvm/versions/node/v14.18.2/bin/pnpm add --global --global-dir /tmp/dlx-41102 --dir /tmp/dlx-41102",
+    "escapedCommand": "\"/home/pablo/.nvm/versions/node/v14.18.2/bin/pnpm\" add --global --global-dir \"/tmp/dlx-41102\" --dir \"/tmp/dlx-41102\"",
+    "exitCode": 1,
+    "failed": true,
+    "timedOut": false,
+    "isCanceled": false,
+    "killed": false,
+    "err": {
+      "name": "pnpm",
+      "message": "Command failed with exit code 1: /home/pablo/.nvm/versions/node/v14.18.2/bin/pnpm add --global --global-dir /tmp/dlx-41102 --dir /tmp/dlx-41102",
+      "stack": "pnpm: Command failed with exit code 1: /home/pablo/.nvm/versions/node/v14.18.2/bin/pnpm add --global --global-dir /tmp/dlx-41102 --dir /tmp/dlx-41102\n    at makeError (/home/pablo/.nvm/versions/node/v14.18.2/lib/node_modules/pnpm/dist/pnpm.cjs:42512:17)\n    at handlePromise (/home/pablo/.nvm/versions/node/v14.18.2/lib/node_modules/pnpm/dist/pnpm.cjs:43083:33)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async Object.handler [as dlx] (/home/pablo/.nvm/versions/node/v14.18.2/lib/node_modules/pnpm/dist/pnpm.cjs:177438:7)\n    at async /home/pablo/.nvm/versions/node/v14.18.2/lib/node_modules/pnpm/dist/pnpm.cjs:182129:21\n    at async run (/home/pablo/.nvm/versions/node/v14.18.2/lib/node_modules/pnpm/dist/pnpm.cjs:182103:34)\n    at async runPnpm (/home/pablo/.nvm/versions/node/v14.18.2/lib/node_modules/pnpm/dist/pnpm.cjs:182322:5)\n    at async /home/pablo/.nvm/versions/node/v14.18.2/lib/node_modules/pnpm/dist/pnpm.cjs:182314:7"
+    }
+  }
+}
